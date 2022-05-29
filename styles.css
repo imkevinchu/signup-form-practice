@@ -15,7 +15,8 @@ body {
 
 .sidebar {
   width: 30vw;
-  background-color: #67fffc;
+  background-image: url("sidebar-img.jpg");
+  background-size: cover;
 }
 
 .content {
