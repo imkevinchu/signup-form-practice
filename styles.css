@@ -23,7 +23,7 @@ body {
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
-  background-color: #f9fafb;
+  background-color: whitesmoke;
 }
 
 .content-container {
@@ -33,7 +33,6 @@ body {
   align-items: center;
   justify-content: left;
   padding-left: 3vw;
-  border: 1px solid black;
 }
 
 .header {
@@ -46,4 +45,9 @@ body {
   font-size: 20px;
   font-weight: lighter;
   line-height: 1.5;
+}
+
+.form-container {
+  background-color: #f9fafb;
+  box-shadow: 3px 3px 5px lightgray;
 }
