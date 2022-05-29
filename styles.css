@@ -22,11 +22,24 @@ body {
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
-  background-color: #b3ffab;
+  background-color: #f9fafb;
 }
 
 .content-container {
+  display: flex;
   flex: 1;
   overflow: auto;
+  align-items: center;
+  justify-content: left;
+  padding-left: 3vw;
   border: 1px solid black;
+}
+
+.header {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-text {
 }
