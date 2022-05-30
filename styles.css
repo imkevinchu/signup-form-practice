@@ -61,13 +61,17 @@ label {
 }
 
 input {
-  border-width: thin;
   margin-top: 6px;
+  padding: 2.5px;
   width: 80%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: #f9fafb;
 }
 
 input:focus {
-  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgray;
 }
 
 input,
