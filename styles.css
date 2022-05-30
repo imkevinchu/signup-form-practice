@@ -63,6 +63,7 @@ label {
 input {
   border-width: thin;
   margin-top: 6px;
+  width: 80%;
 }
 
 input:focus {
@@ -72,7 +73,7 @@ input:focus {
 input,
 label {
   display: block;
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 fieldset {
