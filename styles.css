@@ -16,7 +16,7 @@ body {
 }
 
 .sidebar {
-  width: 30vw;
+  width: 35vw;
   background-image: url("sidebar-img.jpg");
   background-size: cover;
 }
@@ -65,7 +65,7 @@ input {
   padding: 2.5px;
   width: 80%;
   border-radius: 5px;
-  border-width: 1px;
+  border-width: 1.5px;
   border-color: lightgray;
   background-color: #f9fafb;
 }
