@@ -51,3 +51,33 @@ body {
   background-color: #f9fafb;
   box-shadow: 3px 3px 5px lightgray;
 }
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  font-size: x-small;
+  color: dimgray;
+}
+
+input {
+  border-width: thin;
+  margin-top: 6px;
+}
+
+input:focus {
+  border-radius: 5px;
+}
+
+input,
+label {
+  display: block;
+  margin-right: 40px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
